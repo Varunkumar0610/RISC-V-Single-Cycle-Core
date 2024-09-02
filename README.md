@@ -84,6 +84,8 @@ The Load, Store and Read Word Type has been implemented for specific load, store
 
 The simulation has been in **Visual Studio** code with **Icarus Verilog environment**, which supports **gtkwave** for verilog simulaiton.
 
+**Note:** Download **Icarus Verilog** from:https://bleyer.org/icarus, after downloading in **CMD** type **iverilog**, you can see iverilog with gtkwave preinstalled.
+
 **Terminal code:**
 
 Eg: PS C:\Users\user\Desktop\Github projects\RISC_V_Single_Cycle_Core\Load Word I Type> **iverilog -o out.vvp .\Single_Cycle_Top_Tb.v .\Single_Cycle_Top.v,**
